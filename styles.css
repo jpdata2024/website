@@ -57,3 +57,63 @@
   font-size: 18px;
   font-weight: 600;
 }
+/* Center hero heading + intro text */
+.hero-center {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 20px 40px;
+}
+
+/* Use-case block styling */
+.use-case-blocks {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.use-case-blocks .card-lite {
+  padding: 24px 16px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Login page styling */
+.login-container {
+  max-width: 400px;
+  margin: 120px auto;
+  padding: 40px;
+  background: #1d252e;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  text-align: center;
+  color: var(--text);
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: grid;
+  gap: 12px;
+}
+
+.login-form input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.05);
+  color: var(--text);
+}
+
+.back-link {
+  display: block;
+  margin-top: 16px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
