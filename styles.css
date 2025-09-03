@@ -6,7 +6,7 @@
 @media(min-width:900px){.grid2{grid-template-columns:1.2fr .8fr;align-items:center}.grid3{grid-template-columns:repeat(3,1fr)}}
 .topbar{position:sticky;top:0;z-index:50;border-bottom:1px solid var(--line);background:rgba(29,37,46,.6);backdrop-filter:blur(8px)} .topbar .brand{font-weight:600}
 .topbar .nav a{color:var(--muted);text-decoration:none;margin-left:16px} .topbar .nav a:hover{color:var(--text)}
-.logo-img{height:36px;width:auto;margin-right:8px;display:block}
+.logo-img{height:70px;width:auto;margin-right:8px;display:block}
 .hero{padding:56px 0} .hero h1{font-size:40px;margin:0 0 12px} .hero p{opacity:.8;margin:0 0 20px}
 .bullets{display:grid;gap:6px;list-style:none;padding:0;margin:16px 0 0;opacity:.8}
 .mockup{border:1px solid var(--line);border-radius:16px;padding:16px;background:#0f1419} .mockup .card{height:120px;border-radius:12px;background:var(--primary);opacity:.9}
